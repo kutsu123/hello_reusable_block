@@ -12,8 +12,17 @@
 
 ## 使用するショートコード
 
+### 投稿IDで指定
+
 ```
 
-[hrb_hello pid=(再利用ブロックのID)]
+[hrb_show_reusable_block post_id=(再利用ブロックのID)]
+
+```
+### 投稿タイトルで指定
+
+```
+
+[hrb_show_reusable_block post_title=(再利用ブロックの投稿タイトル)]
 
 ```
